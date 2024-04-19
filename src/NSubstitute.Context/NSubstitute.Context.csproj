@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Omato.NSubstitute.Context</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Onkel Mato, Thomas Ley, CodeQualityCoach</Authors>
+    <Company>(C) Softwarekueche</Company>
+    <PackageTags>NSubstitute;Testing;Mock;Mocking;ContextFor</PackageTags>
+    <Description>
+      This library contains a little helper class to automatically generate a substitute for all constructor parameters of a class under test.
+    </Description>
+    <PackageProjectUrl>https://github.com/OnkelMato/NSubstitute.Context</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/OnkelMato/NSubstitute.Context.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="NSubstitute" Version="5.*" />
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
